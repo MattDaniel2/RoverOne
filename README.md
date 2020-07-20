@@ -177,5 +177,5 @@ Project Link: [https://github.com/MattDaniel2/RoverOne](https://github.com/MattD
 [license-shield]: https://img.shields.io/github/license/MattDaniel2/RoverOne.svg?style=flat-square
 [license-url]: https://github.com/MattDaniel2/RoverOne/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/matthew-daniel-3bba75107/
 [product-screenshot]: images/screenshot.png
