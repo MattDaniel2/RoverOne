@@ -56,6 +56,7 @@
 
 * [About the Project](#about-the-project)
 * [Version History](#version-history)
+* [System Overview and Requirements](#system-overview-and-requirements)
 * [Roadmap](#roadmap)
 * [Acknowledgements](#acknowledgements)
 
@@ -69,6 +70,42 @@
 <!-- VERSION HISTORY -->
 ## Version History
 `0.1` -- `7/19/2020` -- `Created initial document`
+
+<!-- SYSTEM OVERVIEW AND REQUIREMENTS -->
+## System Overview and Requirements
+### Software Desktop Application
+  * Responsible for Telemetry and Control interface of Rover
+  * Control Interface
+    * Arrow keys specifying direction
+    * Throttle bar controllable by control/alt keys
+    * Menu accessible by escape key
+      * Dump rover trace to logfile
+      * Dump telemetry to logfile
+      * Console debug
+      * Exit
+    * Presents Telemetry from Rover
+      * Speed
+      * Power Output
+      * Battery Level
+      * Throttle
+      * Heading/Navigation
+### Processing Unit
+  * Xilinx Arty-7 35T FPGA Development Board
+    * Soft-core Microprocessor
+    * Interface to Wi-Fi Tx/Rx
+    * Interface to Power Controller
+    * Interface to Motor Drivers (I2C?)
+    * Interface to IMU
+  * IMU
+  * Wi-Fi Tx/Rx
+### Powertrain Unit
+  * Battery
+  * Motor(s)
+  * Motor Drivers
+### Mechanical Design
+  * Fuck if I know, let’s find out
+
+
 
 <!-- ROADMAP -->
 ## Roadmap
